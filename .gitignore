@@ -1,0 +1,55 @@
+# Ignoruj pliki Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Ignoruj IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Ignoruj zmienne środowiskowe
+.env
+.env.local
+
+# Ignoruj logi
+*.log
+
+# Ignoruj bazy danych (gdy będą dodane)
+*.db
+*.sqlite
+*.sqlite3
+
+# Ignoruj tymczasowe pliki
+tmp/
+temp/
+*.tmp
+
+# Ignoruj pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Ignoruj lokalne zrzuty danych pobrane z drukarek
+data/
